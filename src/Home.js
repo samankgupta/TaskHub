@@ -40,7 +40,6 @@ const HomePage = () => {
     React.useEffect(() => {
         if (signedIn) {
             NotificationManager.success(`Welcome ${supabase.auth.user().user_metadata.name}!`, 'Successfully Signed In');
-            setSignedIn(false)
         }
     }, [signedIn])
 

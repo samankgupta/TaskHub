@@ -193,7 +193,7 @@ export default function Home() {
         }
     };
     return (
-        <div className="bg-blue-500 h-screen">
+        <div className="bg-blue-500 min-h-screen">
             <Navbar page="personal" />
             <StoreApi.Provider
                 value={{

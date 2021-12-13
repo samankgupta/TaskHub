@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+<h1 align="center">TaskHub 📝</h1>
+<p align="center">
+    <a href="https://agri-cultivate.vercel.app/">View Website</a>
+</p>
+<p align="center"><a href="http://agri-cultivate.vercel.app/"><img src="./src/assets/homepage.png" width="700"></a></p>
+<p align="center">TaskHub is a tool that helps you manage your individual/organizational tasks easily and efficiently.
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Technologies Used
 
-## Available Scripts
+<img src="https://img.shields.io/badge/-React-%2361DAFB?logo=react&logoColor=black&style=for-the-badge" alt="React" />
+<img src="https://img.shields.io/badge/-Supabase-%233ECF8E?logo=Supabase&logoColor=white&style=for-the-badge" alt="Supabase" />
+<img src="https://img.shields.io/badge/-Tailwind CSS-%2306B6D4?logo=TailwindCSS&logoColor=white&style=for-the-badge" alt="Tailwind CSS" />
+<img src="https://img.shields.io/badge/-Netlify-%2300C7B7?logo=Netlify&logoColor=white&style=for-the-badge" alt="Netlify" />
 
-In the project directory, you can run:
+## Features
+TaskHub helps you manage your tasks efficiently. Login with your google account to start. Login and Authentication is handled by Supabase.
 
-### `yarn start`
+* [Personal Tasks](#personal-tasks)
+* [Organisation Tasks](#organisation-tasks)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Personal Tasks
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img src="./src/assets/personaltasks.png" width="500">
+<br><br>
+A user can create seperate lists for their personal tasks. Some examples of lists include "To Do", "In Progress" and "Complete".
+A user can add, delete, edit lists. In each list, users can add, delete, edit cards. They can also drag and drop lists, cards to sort them as per their choice.
 
-### `yarn test`
+## Organisation Tasks
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="./src/assets/organisationtasks.png" width="500">
+<br><br>
+When a user signs in, they are added to an organisation. Users can use this to manage tasks for a company, organisation, etc.
+The lists and cards work in the same manner as personal tasks.

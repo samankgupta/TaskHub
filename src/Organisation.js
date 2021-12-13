@@ -207,7 +207,7 @@ export default function Home() {
         }
     };
     return (
-        <div className="bg-blue-500">
+        <div className="bg-blue-500 min-h-screen">
             <Navbar page="org" />
             <div className="bg-blue w-full my-10 flex justify-center font-sans">
                 <div className="rounded bg-blue-200 w-1/5 p-4">
